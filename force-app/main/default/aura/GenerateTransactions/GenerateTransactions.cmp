@@ -1,0 +1,7 @@
+<aura:component implements="force:hasRecordId,force:lightningQuickActionWithoutHeader" access="global" >
+	    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+        <aura:attribute name="spinner" type="boolean" default="true"/>
+    
+        
+    
+</aura:component>
